@@ -1,0 +1,41 @@
+.allDone{
+    height: 15rem;
+    width: 25vw;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 10rem auto;
+    line-height: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,19);
+}
+
+.allDoneHeading{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.allDone span{
+    display: inline;
+    margin: 0 0.2rem;
+}
+
+.submit{
+    background-color: #009999;
+    width: 4.5rem;
+    padding: 0.4rem 0.1rem;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 0.2rem;
+}
+
+@media screen and (max-width: 600px){
+    .allDone{
+        height: 15rem;
+        width: 55vw;
+    }
+}

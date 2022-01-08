@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #009999;
+    padding: 1rem;
+    color: white;
+}
+
+.timer{
+    margin: 0 2rem 0 0.5rem;
+}

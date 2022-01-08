@@ -1,0 +1,49 @@
+.quizModal{
+    height: 25rem;
+    width: 45vw;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 10rem auto;
+    line-height: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,19);
+}
+.quizQuestion{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+.quizOption{
+    background-color: #009999;
+    padding: 0.1rem 0.5rem;
+    height: 3rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.quizOption:hover{
+    cursor: pointer;
+}
+.verfiedBoolean{
+    font-size: 1.3rem;
+    height: 1rem;
+}
+
+@media screen and (max-width: 640px){
+    .quizModal{
+        height: 25rem;
+        width: 55vw;
+    }
+
+    .quizQuestion{
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+        font-weight: bolder;
+    }
+}
