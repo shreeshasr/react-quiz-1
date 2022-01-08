@@ -29,7 +29,7 @@ function HighScores() {
             }
             </ol>
             <div className="navButtons">
-                <Link to="/quiz"><button className='goBack' onClick={ () => dispatch(setTheInitialTimer(50))}>Go Back</button></Link>
+                <Link to="/"><button className='goBack'>Go Back</button></Link>
                 <button className='clearHighScores' onClick={ () => dispatch(clearHighScores())}>Clear Highscores</button>
             </div>
             
